@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>PHPWomen</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="PHPWomen BR site" />
+		<meta name="keywords" content="PHP,women,PHPWomen" />
+		<!--[if lte IE 8]><script src="/assets/css/ie/html5shiv.js"></script><![endif]-->
+		<script src="/assets/js/jquery.min.js"></script>
+		<script src="/assets/js/jquery.dropotron.min.js"></script>
+		<script src="/assets/js/skel.min.js"></script>
+		<script src="/assets/js/skel-layers.min.js"></script>
+		<script src="/assets/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="/assets/css/skel.css" />
+			<link rel="stylesheet" href="/assets/css/style.css" />
+			<link rel="stylesheet" href="/assets/css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+				<!-- Logo -->
+					<h1><a href="/" id="logo"><img src="/assets/images/logos/logo-150x68.png"> <em></em></a></h1>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li>
+								<a href="/">Home</a>
+							</li>
+															<li>
+									<a href="/about">Quem somos</a>
+								</li>
+															<li>
+									<a href="/events">Eventos</a>
+								</li>
+															<li>
+									<a href="/help">Contribua</a>
+								</li>
+															<li>
+									<a href="/history">História</a>
+								</li>
+							      						<li>
+					          <a href="/contact">Contato</a>
+					     	</li>
+						</ul>
+					</nav>
+
+			</div>    <link rel="stylesheet" href="
+Warning: Use of undefined constant site - assumed 'site' (this will throw an Error in a future version of PHP) in /home/travis/build/phpwomenbr/site/cache/c3d45429c8f54cc17afd5c290f410ef4d4c4354b.php on line 2
+
+Call Stack:
+    0.0001     412920   1. {main}() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/jigsaw:0
+    0.0140    2634800   2. Symfony\Component\Console\Application->run() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/jigsaw:14
+    0.0192    2799248   3. Symfony\Component\Console\Application->doRun() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:148
+    0.0196    2810832   4. Symfony\Component\Console\Application->doRunCommand() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:272
+    0.0196    2810832   5. TightenCo\Jigsaw\Console\BuildCommand->run() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:1011
+    0.0198    2812232   6. TightenCo\Jigsaw\Console\BuildCommand->execute() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Command/Command.php:255
+    0.0199    2823192   7. TightenCo\Jigsaw\Console\BuildCommand->fire() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.0341    4328248   8. TightenCo\Jigsaw\Jigsaw->build() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    0.0428    5085992   9. TightenCo\Jigsaw\Jigsaw->buildSite() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    0.0429    5085992  10. TightenCo\Jigsaw\SiteBuilder->build() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    0.0430    5085976  11. TightenCo\Jigsaw\SiteBuilder->generateFiles() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    0.0479    5849648  12. Illuminate\Support\Collection->flatMap() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    0.0479    5849648  13. Illuminate\Support\Collection->map() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1215
+    0.0479    5857896  14. array_map() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1120
+    0.0631    5977920  15. TightenCo\Jigsaw\SiteBuilder->TightenCo\Jigsaw\{closure:/home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:81-85}() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1120
+    0.0631    5977920  16. TightenCo\Jigsaw\SiteBuilder->handle() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    0.0633    5979728  17. TightenCo\Jigsaw\Handlers\CollectionItemHandler->handle() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    0.0634    5978872  18. TightenCo\Jigsaw\Handlers\BladeHandler->handleCollectionItem() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/CollectionItemHandler.php:54
+    0.0636    5981344  19. TightenCo\Jigsaw\Handlers\BladeHandler->buildOutput() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:35
+    0.0636    5981568  20. TightenCo\Jigsaw\Handlers\BladeHandler->renderWithFrontMatter() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:55
+    0.0638    5981696  21. TightenCo\Jigsaw\Handlers\BladeHandler->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:88
+    0.0638    5981696  22. TightenCo\Jigsaw\View\ViewRenderer->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:77
+    0.0639    5981856  23. Illuminate\View\View->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    0.0639    5981856  24. Illuminate\View\View->renderContents() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:90
+    0.0639    5981856  25. Illuminate\View\View->getContents() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:125
+    0.0639    5982232  26. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:142
+    0.0649    5982912  27. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    0.0649    6005352  28. include('/home/travis/build/phpwomenbr/site/cache/c3d45429c8f54cc17afd5c290f410ef4d4c4354b.php') /home/travis/build/phpwomenbr/site/vendor/illuminate/view/Engines/PhpEngine.php:43
+
+
+Warning: Use of undefined constant baseurl - assumed 'baseurl' (this will throw an Error in a future version of PHP) in /home/travis/build/phpwomenbr/site/cache/c3d45429c8f54cc17afd5c290f410ef4d4c4354b.php on line 2
+
+Call Stack:
+    0.0001     412920   1. {main}() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/jigsaw:0
+    0.0140    2634800   2. Symfony\Component\Console\Application->run() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/jigsaw:14
+    0.0192    2799248   3. Symfony\Component\Console\Application->doRun() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:148
+    0.0196    2810832   4. Symfony\Component\Console\Application->doRunCommand() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:272
+    0.0196    2810832   5. TightenCo\Jigsaw\Console\BuildCommand->run() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:1011
+    0.0198    2812232   6. TightenCo\Jigsaw\Console\BuildCommand->execute() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Command/Command.php:255
+    0.0199    2823192   7. TightenCo\Jigsaw\Console\BuildCommand->fire() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.0341    4328248   8. TightenCo\Jigsaw\Jigsaw->build() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    0.0428    5085992   9. TightenCo\Jigsaw\Jigsaw->buildSite() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    0.0429    5085992  10. TightenCo\Jigsaw\SiteBuilder->build() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    0.0430    5085976  11. TightenCo\Jigsaw\SiteBuilder->generateFiles() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    0.0479    5849648  12. Illuminate\Support\Collection->flatMap() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    0.0479    5849648  13. Illuminate\Support\Collection->map() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1215
+    0.0479    5857896  14. array_map() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1120
+    0.0631    5977920  15. TightenCo\Jigsaw\SiteBuilder->TightenCo\Jigsaw\{closure:/home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:81-85}() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1120
+    0.0631    5977920  16. TightenCo\Jigsaw\SiteBuilder->handle() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    0.0633    5979728  17. TightenCo\Jigsaw\Handlers\CollectionItemHandler->handle() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    0.0634    5978872  18. TightenCo\Jigsaw\Handlers\BladeHandler->handleCollectionItem() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/CollectionItemHandler.php:54
+    0.0636    5981344  19. TightenCo\Jigsaw\Handlers\BladeHandler->buildOutput() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:35
+    0.0636    5981568  20. TightenCo\Jigsaw\Handlers\BladeHandler->renderWithFrontMatter() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:55
+    0.0638    5981696  21. TightenCo\Jigsaw\Handlers\BladeHandler->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:88
+    0.0638    5981696  22. TightenCo\Jigsaw\View\ViewRenderer->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:77
+    0.0639    5981856  23. Illuminate\View\View->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    0.0639    5981856  24. Illuminate\View\View->renderContents() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:90
+    0.0639    5981856  25. Illuminate\View\View->getContents() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:125
+    0.0639    5982232  26. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:142
+    0.0649    5982912  27. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    0.0649    6005352  28. include('/home/travis/build/phpwomenbr/site/cache/c3d45429c8f54cc17afd5c290f410ef4d4c4354b.php') /home/travis/build/phpwomenbr/site/vendor/illuminate/view/Engines/PhpEngine.php:43
+
+sitebaseurl/assets/css/jquery-ui-style.css" />
+<script src="
+Warning: Use of undefined constant site - assumed 'site' (this will throw an Error in a future version of PHP) in /home/travis/build/phpwomenbr/site/cache/c3d45429c8f54cc17afd5c290f410ef4d4c4354b.php on line 3
+
+Call Stack:
+    0.0001     412920   1. {main}() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/jigsaw:0
+    0.0140    2634800   2. Symfony\Component\Console\Application->run() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/jigsaw:14
+    0.0192    2799248   3. Symfony\Component\Console\Application->doRun() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:148
+    0.0196    2810832   4. Symfony\Component\Console\Application->doRunCommand() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:272
+    0.0196    2810832   5. TightenCo\Jigsaw\Console\BuildCommand->run() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:1011
+    0.0198    2812232   6. TightenCo\Jigsaw\Console\BuildCommand->execute() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Command/Command.php:255
+    0.0199    2823192   7. TightenCo\Jigsaw\Console\BuildCommand->fire() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.0341    4328248   8. TightenCo\Jigsaw\Jigsaw->build() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    0.0428    5085992   9. TightenCo\Jigsaw\Jigsaw->buildSite() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    0.0429    5085992  10. TightenCo\Jigsaw\SiteBuilder->build() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    0.0430    5085976  11. TightenCo\Jigsaw\SiteBuilder->generateFiles() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    0.0479    5849648  12. Illuminate\Support\Collection->flatMap() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    0.0479    5849648  13. Illuminate\Support\Collection->map() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1215
+    0.0479    5857896  14. array_map() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1120
+    0.0631    5977920  15. TightenCo\Jigsaw\SiteBuilder->TightenCo\Jigsaw\{closure:/home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:81-85}() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1120
+    0.0631    5977920  16. TightenCo\Jigsaw\SiteBuilder->handle() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    0.0633    5979728  17. TightenCo\Jigsaw\Handlers\CollectionItemHandler->handle() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    0.0634    5978872  18. TightenCo\Jigsaw\Handlers\BladeHandler->handleCollectionItem() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/CollectionItemHandler.php:54
+    0.0636    5981344  19. TightenCo\Jigsaw\Handlers\BladeHandler->buildOutput() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:35
+    0.0636    5981568  20. TightenCo\Jigsaw\Handlers\BladeHandler->renderWithFrontMatter() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:55
+    0.0638    5981696  21. TightenCo\Jigsaw\Handlers\BladeHandler->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:88
+    0.0638    5981696  22. TightenCo\Jigsaw\View\ViewRenderer->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:77
+    0.0639    5981856  23. Illuminate\View\View->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    0.0639    5981856  24. Illuminate\View\View->renderContents() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:90
+    0.0639    5981856  25. Illuminate\View\View->getContents() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:125
+    0.0639    5982232  26. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:142
+    0.0649    5982912  27. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    0.0649    6005352  28. include('/home/travis/build/phpwomenbr/site/cache/c3d45429c8f54cc17afd5c290f410ef4d4c4354b.php') /home/travis/build/phpwomenbr/site/vendor/illuminate/view/Engines/PhpEngine.php:43
+
+
+Warning: Use of undefined constant baseurl - assumed 'baseurl' (this will throw an Error in a future version of PHP) in /home/travis/build/phpwomenbr/site/cache/c3d45429c8f54cc17afd5c290f410ef4d4c4354b.php on line 3
+
+Call Stack:
+    0.0001     412920   1. {main}() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/jigsaw:0
+    0.0140    2634800   2. Symfony\Component\Console\Application->run() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/jigsaw:14
+    0.0192    2799248   3. Symfony\Component\Console\Application->doRun() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:148
+    0.0196    2810832   4. Symfony\Component\Console\Application->doRunCommand() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:272
+    0.0196    2810832   5. TightenCo\Jigsaw\Console\BuildCommand->run() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Application.php:1011
+    0.0198    2812232   6. TightenCo\Jigsaw\Console\BuildCommand->execute() /home/travis/build/phpwomenbr/site/vendor/symfony/console/Command/Command.php:255
+    0.0199    2823192   7. TightenCo\Jigsaw\Console\BuildCommand->fire() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Console/Command.php:21
+    0.0341    4328248   8. TightenCo\Jigsaw\Jigsaw->build() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Console/BuildCommand.php:59
+    0.0428    5085992   9. TightenCo\Jigsaw\Jigsaw->buildSite() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Jigsaw.php:33
+    0.0429    5085992  10. TightenCo\Jigsaw\SiteBuilder->build() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Jigsaw.php:54
+    0.0430    5085976  11. TightenCo\Jigsaw\SiteBuilder->generateFiles() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:36
+    0.0479    5849648  12. Illuminate\Support\Collection->flatMap() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:85
+    0.0479    5849648  13. Illuminate\Support\Collection->map() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1215
+    0.0479    5857896  14. array_map() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1120
+    0.0631    5977920  15. TightenCo\Jigsaw\SiteBuilder->TightenCo\Jigsaw\{closure:/home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:81-85}() /home/travis/build/phpwomenbr/site/vendor/illuminate/support/Collection.php:1120
+    0.0631    5977920  16. TightenCo\Jigsaw\SiteBuilder->handle() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:84
+    0.0633    5979728  17. TightenCo\Jigsaw\Handlers\CollectionItemHandler->handle() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/SiteBuilder.php:112
+    0.0634    5978872  18. TightenCo\Jigsaw\Handlers\BladeHandler->handleCollectionItem() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/CollectionItemHandler.php:54
+    0.0636    5981344  19. TightenCo\Jigsaw\Handlers\BladeHandler->buildOutput() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:35
+    0.0636    5981568  20. TightenCo\Jigsaw\Handlers\BladeHandler->renderWithFrontMatter() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:55
+    0.0638    5981696  21. TightenCo\Jigsaw\Handlers\BladeHandler->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:88
+    0.0638    5981696  22. TightenCo\Jigsaw\View\ViewRenderer->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/Handlers/BladeHandler.php:77
+    0.0639    5981856  23. Illuminate\View\View->render() /home/travis/build/phpwomenbr/site/vendor/tightenco/jigsaw/src/View/ViewRenderer.php:39
+    0.0639    5981856  24. Illuminate\View\View->renderContents() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:90
+    0.0639    5981856  25. Illuminate\View\View->getContents() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:125
+    0.0639    5982232  26. Illuminate\View\Engines\CompilerEngine->get() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/View.php:142
+    0.0649    5982912  27. Illuminate\View\Engines\CompilerEngine->evaluatePath() /home/travis/build/phpwomenbr/site/vendor/illuminate/view/Engines/CompilerEngine.php:59
+    0.0649    6005352  28. include('/home/travis/build/phpwomenbr/site/cache/c3d45429c8f54cc17afd5c290f410ef4d4c4354b.php') /home/travis/build/phpwomenbr/site/vendor/illuminate/view/Engines/PhpEngine.php:43
+
+sitebaseurl/assets/js/jquery-ui.js"></script>
+<section class="wrapper style1">
+  <div class="container">
+    <div class="row">
+      <h2>Quem somos</h2>
+      <p>
+        Uma extensão no Brasil do grupo internacional PHPWomen.<br>
+        Somos desenvolvedoras, aspirantes e simpatizantes que buscam a disseminação de conhecimento PHP com a criação de um ambiente acolhedor para mulheres e homens.
+      </p>
+    </div>
+
+    <div class="row">
+          <div class="4u">
+            <img src="https://avatars2.githubusercontent.com/u/1061875?v=3&s=460" class="image profile" /><br>Thamara Hessel
+          </div>
+          <div class="4u">
+            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Ariana Kataoka
+          </div>
+          <div class="4u">
+            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Danielle Campos
+          </div>
+    </div>
+    <div class="row">
+          <div class="4u">
+            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Diana Arnos
+          </div>
+          <div class="4u">
+            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Eilem Gomes
+          </div>
+          <div class="4u">
+            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Gabriela Davila
+          </div>
+    </div>
+    <div class="row">
+          <div class="4u">
+            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Cristina Luz
+          </div>
+          <div class="4u">
+            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Jucy
+          </div>
+          <div class="4u">
+            <img src="http://inception-science.com/upload/913249781.jpg" class="image profile" /><br>Beatriz
+          </div>
+    </div>
+  </div>
+  
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+</section>
+<!-- CTA -->
+			<section id="cta" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Você ou sua empresa gostariam de apoiar o grupo ?</h2>
+						<a href="/help" class="button">Faça sua contribuição.</a>
+					</header>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container">
+					<div class="row ">
+						<div class="12u">
+							<div class="row collapse-at-2">
+								<section class="3u">
+									<h3>Comunidades amigas</h3>
+									<ul class="links">
+										<li><a href="http://www.laravel.com.br/">Laravel BR</a></li>
+										<li><a href="http://www.cakephpbrasil.com.br/">CakePHP Brasil</a></li>
+									</ul>
+								</section>
+								<section class="4u">
+									<h3>Comunidades PHP do Brasil</h3>
+									<ul class="links">
+										<li><a href="http://phpsp.org.br/" target="_blank">SP</a>,
+											<a href="http://phprio.org/" target="_blank">RJ</a>,
+											<a href="http://phpms.com.br/" target="_blank">MS</a>,
+											<a href="http://www.phpsc.com.br/" target="_blank">SC</a>,
+											<a href="http://phpmg.com/" target="_blank">MG</a>,
+											<a href="http://phpba.com.br/" target="_blank">BA</a>,
+											<a href="http://www.phpdf.org.br/" target="_blank">DF</a>,
+											<a href="http://php-pb.net/" target="_blank">PB</a>,
+											<a href="http://www.phpmaranhao.com.br/" target="_blank">MA</a>,
+											<a href="https://groups.google.com/forum/#!forum/gophp/" target="_blank">GO</a>,
+											<a href="http://phpcomrapadura.org/" target="_blank">CE</a>
+										</li>
+									</ul>
+								</section>
+								<section class="4u">
+									<h3>Eventos que apoiamos</h3>
+									<ul class="links">
+										<li>
+											<a href="https://br.darkmiratour.com/" target="_blank">Darkmiratour</a><br>
+											<a href="https://phpexperience.imasters.com.br/" target="_blank">PHPeXperience</a>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="https://twitter.com/phpwomenbr" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/groups/elephants.together" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/phpwomenbr/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/groups/12047071" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					</ul>
+
+				<!-- Copyright -->
+					<div class="copyright">
+						<ul class="menu">
+							<li>&copy;All rights reserved</li>
+							<li>Feito com <i class="icon fa-heart"></i> by PHPWomen Brasil </li>
+							<li><a href="/terms">Termos e regras de conduta </a></li>
+						</ul>
+					</div>
+
+			</div>
+	</body>
+</html>
